@@ -1,0 +1,16 @@
+{
+  "name": "farcaster-merch-caster-serverless",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "tsc -p ."
+  },
+  "dependencies": {
+    "@upstash/redis": "^1.31.6",
+    "cross-fetch": "^4.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.2"
+  }
+}
