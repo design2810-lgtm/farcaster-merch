@@ -1,9 +1,0 @@
-{
-  "functions": {
-    "api/post-next.ts": { "runtime": "nodejs20.x" },
-    "api/post-now.ts":  { "runtime": "nodejs20.x" }
-  },
-  "crons": [
-    { "path": "/api/post-next", "schedule": "0 */2 * * *" }
-  ]
-}
